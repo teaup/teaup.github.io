@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1037.000000, -33.000000)" fill="#000000">
+            <g id="Social-media" transform="translate(1037.000000, 33.000000)">
+                <g id="instagram_logo">
+                    <path d="M5.978,2 C3.785,2 2,3.785 2,5.978 L2,16.022 C2,18.215 3.785,20 5.978,20 L16.022,20 C18.215,20 20,18.215 20,16.022 L20,5.978 C20,3.785 18.215,2 16.022,2 L5.978,2 Z M16.022,22 L5.978,22 C2.682,22 0,19.318 0,16.022 L0,5.978 C0,2.682 2.682,0 5.978,0 L16.022,0 C19.318,0 22,2.682 22,5.978 L22,16.022 C22,19.318 19.318,22 16.022,22 Z" id="Fill-21"></path>
+                    <path d="M11,7 C8.794,7 7,8.794 7,11 C7,13.206 8.794,15 11,15 C13.206,15 15,13.206 15,11 C15,8.794 13.206,7 11,7 M11,17 C7.691,17 5,14.309 5,11 C5,7.691 7.691,5 11,5 C14.309,5 17,7.691 17,11 C17,14.309 14.309,17 11,17" id="Fill-23"></path>
+                    <path d="M17,5 C16.449,5 16,4.551 16,4 C16,3.449 16.449,3 17,3 C17.551,3 18,3.449 18,4 C18,4.551 17.551,5 17,5" id="Fill-25"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
