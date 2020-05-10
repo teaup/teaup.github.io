@@ -104,6 +104,10 @@ nav>.container {
     justify-content: center;
 }
 
+.splash-box {
+    flex-direction: column;
+}
+
 .image-box {
     display: -webkit-box;
     display: flex;
@@ -227,6 +231,30 @@ textarea {
     padding: 16px;
     box-sizing: border-box;
     resize: vertical;
+}
+
+.teaup-button {
+    height: 42px;
+    width: 200px;
+    border-radius: 8px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 101, 39, 1)), to(rgba(240, 140, 42, 1)));
+    background: linear-gradient(180deg, rgba(242, 101, 39, 1) 0%, rgba(240, 140, 42, 1) 100%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.teaup-button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 140, 42, 1)), to(rgba(242, 101, 39, 1)));
+    background: linear-gradient(180deg, rgba(240, 140, 42, 1) 0%, rgba(242, 101, 39, 1) 100%);
 }
 
 input[type=submit] {
