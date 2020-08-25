@@ -176,15 +176,20 @@ nav>.container {
 }
 
 .location {
-    background-color: white;
+    background-color: black;
     width: 100%;
     padding-bottom: 54px;
+}
+
+.location .title {
+    color: white;
 }
 
 .google-maps {
     border-width: 3px;
     border-radius: 16px;
-    border-color: #222222;
+    border-color: white;
+    border-style: solid;
 }
 
 .text-box {
