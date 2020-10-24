@@ -22,6 +22,10 @@ html {
     overflow-x: hidden;
 }
 
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+
 p {
     display: block;
     -webkit-margin-before: 0.5em;
@@ -35,12 +39,16 @@ p {
 }
 
 nav {
-    background-color: white;
-    height: 88px;
+    height: 110px;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 99;
+    transition: background-color 200ms linear;
+}
+
+.scrolled {
+    background-color:rgba(1, 1, 1, 0.9) !important;
 }
 
 .orange-text {
@@ -81,7 +89,7 @@ h1 {
 
 .container {
     max-width: 940px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     position: relative;
 }
 
@@ -179,10 +187,6 @@ nav>.container {
     background-color: black;
     width: 100%;
     padding-bottom: 54px;
-}
-
-.location .title {
-    color: white;
 }
 
 .google-maps {
@@ -346,7 +350,7 @@ input[type=submit]:hover {
         display: -webkit-box;
         display: flex;
         -webkit-box-pack: center;
-                justify-content: center;
+        justify-content: center;
         margin-bottom: 20px;
     }
 
@@ -487,7 +491,7 @@ input[type=submit]:hover {
 .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: #fff;
     margin: 6px 0;
     -webkit-transition: 0.4s;
     transition: 0.4s;
@@ -510,6 +514,41 @@ input[type=submit]:hover {
     background-color: white;
 }
 
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+    background-color: inherit;
+    -webkit-transition: background-color 550ms ease-in-out;
+    -ms-transition: background-color 550ms ease-in-out;
+    transition: background-color 550ms ease-in-out;
+}
+
+.swiper-wrapper {
+    transition-timing-function: ease-out;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.scene-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fff !important;
+}
+
 @media screen and (max-height: 450px) {
     .overlay a {
         font-size: 20px
@@ -519,5 +558,17 @@ input[type=submit]:hover {
         font-size: 40px;
         top: 15px;
         right: 35px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 60%;
+    }
+
+    .swiper-container {
+        -webkit-transition: background-color 300ms linear;
+        -ms-transition: background-color 300ms linear;
+        transition: background-color 300ms linear;
     }
 }
